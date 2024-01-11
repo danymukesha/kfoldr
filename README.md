@@ -1,0 +1,23 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# kfoldr
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of `kfoldr` is to provide an implementation of k-fold
+cross-validation with an exhaustive search over specified parameter
+combinations. It includes a flexible framework for calculating binary
+metrics, generating interactive Bokeh plots, and assessing model
+performance through bootstrap resampling. This package is designed to
+streamline the evaluation of machine learning models, particularly in
+the context of binary classification tasks.
+
+## Installation
+
+Here is the installation for a development version of `kfoldr`:
+
+``` r
+devtools::install_github("danymukesha/kfoldr")
+```
